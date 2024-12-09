@@ -1,0 +1,8 @@
+p,
+li {
+  font-size: 1.4rem;
+}
+
+.slidev-slide-content {
+  background-color: rgb(148, 78, 78) /* #121212 */;
+}
