@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
   }
 
   return {
-    base: "slides-create-cli-with-unjs",
+    base: "slides-xrkaigi24-webxrdeviceapi-you-dont-know",
   };
 });
 
