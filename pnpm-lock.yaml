@@ -29,6 +29,13 @@ importers:
       vue:
         specifier: ^3.5.13
         version: 3.5.13(typescript@5.6.3)
+    devDependencies:
+      prettier:
+        specifier: ^3.4.2
+        version: 3.4.2
+      prettier-plugin-slidev:
+        specifier: ^1.0.5
+        version: 1.0.5(prettier@3.4.2)
 
 packages:
 
@@ -724,6 +731,10 @@ packages:
 
   '@slidev/client@0.50.0-beta.10':
     resolution: {integrity: sha512-YSPdOLVtTl0ghtcVMiOmrsO/C7O2/gjMpZklCfqw7dhailwA/2s9B4krHkZedjASQhRRpNjS89RIpOeY+g8/HA==}
+    engines: {node: '>=18.0.0'}
+
+  '@slidev/parser@0.47.5':
+    resolution: {integrity: sha512-KvqOEhIFuMDu8CjAsehMNKlAnnmAn2TRHiEymc3CMadid05oWa5zgTxqEyMxUl2rjWpYs3A1yDiendZsGYs3HA==}
     engines: {node: '>=18.0.0'}
 
   '@slidev/parser@0.50.0-beta.10':
@@ -2397,6 +2408,11 @@ packages:
   pptxgenjs@3.12.0:
     resolution: {integrity: sha512-ZozkYKWb1MoPR4ucw3/aFYlHkVIJxo9czikEclcUVnS4Iw/M+r+TEwdlB3fyAWO9JY1USxJDt0Y0/r15IR/RUA==}
 
+  prettier-plugin-slidev@1.0.5:
+    resolution: {integrity: sha512-1xaKzOAX17QAcn1roUgQIAfeio3HPYYefCgzxh6Bzk+5rJJxq0I8HUhLrUyv9nCpIP6e9CDv/yDQSdEeqqRUuA==}
+    peerDependencies:
+      prettier: ^3.2.4
+
   prettier@3.4.2:
     resolution: {integrity: sha512-e9MewbtFo+Fevyuxn/4rrcDAaq0IYxPGLvObpQjiZBMAzB9IGmzlnG9RZy3FFas+eBMu2vA0CszMeduow5dIuQ==}
     engines: {node: '>=14'}
@@ -3814,6 +3830,11 @@ snapshots:
       - vite
       - vue-template-compiler
       - vue-template-es2015-compiler
+
+  '@slidev/parser@0.47.5':
+    dependencies:
+      '@slidev/types': 0.47.5
+      js-yaml: 4.1.0
 
   '@slidev/parser@0.50.0-beta.10(@nuxt/kit@3.14.1592(rollup@4.28.1))(@vue/compiler-sfc@3.5.13)(postcss@8.4.49)(rollup@4.28.1)(typescript@5.6.3)(vite@6.0.3(@types/node@18.19.67)(jiti@2.4.1)(tsx@4.19.2)(yaml@2.6.1))(vue-template-compiler@2.7.16)':
     dependencies:
@@ -5923,6 +5944,11 @@ snapshots:
       https: 1.0.0
       image-size: 1.1.1
       jszip: 3.10.1
+
+  prettier-plugin-slidev@1.0.5(prettier@3.4.2):
+    dependencies:
+      '@slidev/parser': 0.47.5
+      prettier: 3.4.2
 
   prettier@3.4.2: {}
 
