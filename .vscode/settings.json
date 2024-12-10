@@ -1,3 +1,9 @@
 {
-  "markdown.copyFiles.destination": { "*": "public/" }
+  "markdown.copyFiles.destination": {
+    "*": "public/"
+  },
+  "slidev.include": [
+    "**/slides.md",
+    "pages/*.md"
+  ]
 }
