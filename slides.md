@@ -143,3 +143,5 @@ level: 2
   https://zenn.dev/ikkou/articles/337f584f7581da
 - News from WWDC24:WebKit in Safari 18 beta  
   https://webkit.org/blog/15443/news-from-wwdc24-webkit-in-safari-18-beta/
+- Introducing Immersive Web Emulation Runtime (IWER) for Faster WebXR Iteration  
+  https://developers.meta.com/horizon/blog/immersive-web-emulation-runtime-iwer-webxr-meta-quest-developer/
