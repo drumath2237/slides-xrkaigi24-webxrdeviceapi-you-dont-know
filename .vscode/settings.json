@@ -1,10 +1,7 @@
 {
   "markdown.copyFiles.destination": {
-    "*": "public/"
+    "*": "${documentWorkspaceFolder}/public/"
   },
-  "slidev.include": [
-    "**/slides.md",
-    "pages/*.md"
-  ],
+  "slidev.include": ["**/slides.md", "pages/*.md"],
   "editor.formatOnSave": true
 }
