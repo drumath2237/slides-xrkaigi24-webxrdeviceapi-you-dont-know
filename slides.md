@@ -84,3 +84,8 @@ level: 2
 ## 本日のゴール：
 
 **「WebXR Device APIってこんなことできるんだ！」と感じてもらう**
+
+---
+src: "./pages/about-webxr.md"
+---
+
