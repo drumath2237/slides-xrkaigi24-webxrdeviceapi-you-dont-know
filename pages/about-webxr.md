@@ -19,8 +19,6 @@ level: 2
 
 ![space ar](/spacear.png){width=400px}
 
-[WebXR Sample Immersive AR Sessionのキャプチャ]{font-size=1rem}
-
 ---
 level: 2
 layout: two-cols

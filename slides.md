@@ -52,6 +52,12 @@ SNS
 - <uim-twitter-alt /> [@ninisan_drumath](https://x.com/ninisan_drumath)
 - <uim-github-alt /> [@drumath2237](https:github.com/drumath2237)
 
+<style>
+  li{
+    font-size: 20px
+  }
+</style>
+
 ::right::
 
 <img src="https://pbs.twimg.com/profile_images/1113849253548269568/4uy_K_LA_400x400.png" class="rounded shadow ml-30 mb-5 h-55"/>
@@ -80,7 +86,7 @@ level: 2
 - 昨年に引き続きWebXR Device APIの話です
 - XR Kaigi 2024のテーマは「More Immersive, More Spatial」
 - WebXRの話でも、特に非モバイル向けにフォーカス
-- 個人的に面白いなと思ってるけどあまり知られていなさそうな話題をピックアップ
+- 個人的に面白いと思う話題をピックアップ
 
 ## 本日のゴール：
 
@@ -127,11 +133,23 @@ level: 2
 
 # まとめ
 
+- WebXRを実現する方法はいくつか存在する
+- WebXR Device APIはブラウザにおけるWebXRの標準仕様
+- Safari on visionOS、Questブラウザ、Wolvicの現状と  
+  気になるポイントをご紹介
+- IWERはWebXRの動作をシミュレーションする機能をアプリに提供する
+
 ---
 level: 2
 ---
 
 # WebXR Device APIへの期待
+
+- Webという環境はユーザにも開発者にも魅力的なプラットフォームである
+- 今後もさまざまなXRデバイスがリリースされていくなかで  
+  標準化された規格があると安心
+- ARグラスやHMDがもっと普及した未来に向けて、  
+  WebXRの世界も前進できるとうれしい
 
 ---
 level: 2
@@ -145,3 +163,11 @@ level: 2
   https://webkit.org/blog/15443/news-from-wwdc24-webkit-in-safari-18-beta/
 - Introducing Immersive Web Emulation Runtime (IWER) for Faster WebXR Iteration  
   https://developers.meta.com/horizon/blog/immersive-web-emulation-runtime-iwer-webxr-meta-quest-developer/
+- Immersive Web Emulation Runtime🔓 Unlock WebXR Emulation Everywhere  
+  https://meta-quest.github.io/immersive-web-emulation-runtime/
+
+<style>
+  li{
+    font-size: 15px;
+  }
+</style>
