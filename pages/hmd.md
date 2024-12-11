@@ -99,3 +99,52 @@ layout: section
 
 # Wolvic
 
+---
+level: 2
+layout: two-cols
+---
+
+# Wolvicブラウザ
+<br />
+
+XRデバイス向けブラウザ
+
+Igalia主導のもとオープンソースで開発されている  
+https://github.com/Igalia/wolvic
+
+Firefox Realityというブラウザの後継
+
+Immersive Webのサポートテーブルにも記載
+
+::right::
+
+<img src="/wolvic.png" class="ml-10 mt-20"/>
+
+---
+level: 2
+---
+
+# Wolvicに期待する部分
+
+- Androidベース・SnapdragonSpaces系端末に広く対応
+  - Quest系, Vive Focus, PICO系
+  - ThinkReality A3 / Lynx R1
+- 新しいXRデバイスが出てきている
+  - PICO 4 Ultra
+  - QONOQ Devices MiRZA
+  - Quest 3S
+  - Meta Orion
+  
+---
+level: 2
+# layout: two-cols
+---
+
+# Chromium版アップデート
+<br/>
+
+WolvicはGecko版とChromium版が走っており、  
+とうとうChromium版でAR Moduleが利用可能に！
+
+<img src="/chromium.png" class="scale-80"/>
+
