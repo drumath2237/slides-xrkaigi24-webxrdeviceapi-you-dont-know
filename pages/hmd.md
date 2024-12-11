@@ -54,6 +54,16 @@ level: 2
 ---
 
 # Meta QuestとDevice APIの概要
+<br/>
+
+Meta Quest3をはじめとするデバイスではQuestブラウザを搭載
+
+もちろんQuestブラウザはWebXR Device API対応
+
+WebXR Incubation Flagの有効化は必要なものの、  
+Questブラウザは多くのWebXR Moduleを実装している
+
+モバイルでは動かないような機能もいくつかあり、触っていて楽しい
 
 ---
 level: 2
@@ -61,6 +71,17 @@ layout: two-cols
 ---
 
 # Mesh Detection
+<br/>
+
+WebXR Mesh Detection Module　　
+https://immersive-web.github.io/real-world-meshing/
+
+空間の形状を取得できる機能
+
+事前にスキャンしてあるメッシュを取得できる形なため  
+メッシュは動的に変わらない
+
+WebXR SamplesのProposal欄にサンプルがあるので、気軽に試すには良い
 
 ::right::
 
@@ -74,8 +95,18 @@ layout: two-cols
 ---
 
 # Body Tracking
+<br/>
 
-aaa
+WebXR Body Tracking Module  
+https://cabanier.github.io/webxr-body-tracking/
+
+Quest3の場合、  
+手と頭から全身骨格の姿勢を推定する  
+ユニークな機能
+
+WebXR Samplesにはサンプルがないが、  
+個人的に試せるものを公開しています  
+https://drumath2237.github.io/babylon-body-tracking-testbed/
 
 ::right::
 
@@ -87,6 +118,18 @@ layout: two-cols
 ---
 
 # Depth Sensing
+<br/>
+
+WebXR Depth Sensing Module  
+https://www.w3.org/TR/webxr-depth-sensing-1/
+
+Depth画像を取得できる機能  
+オクルージョンや衝突判定などに活用できる
+
+XR体験のプレゼンスがぐっと上がる仕組みなので注目している
+
+Chrome for Andoroidにも実装されているが、
+画像フォーマット定義に齟齬があるようでそのままでは動かない可能性もある
 
 ::right::
 

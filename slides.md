@@ -157,10 +157,16 @@ level: 2
 
 # 参考文献
 
+- Immersive Web Developer Home  
+  https://immersiveweb.dev/
 - Apple Vision Pro (visionOS 2.0) における WebXR Device API とその周辺の現状確認  
   https://zenn.dev/ikkou/articles/337f584f7581da
 - News from WWDC24:WebKit in Safari 18 beta  
   https://webkit.org/blog/15443/news-from-wwdc24-webkit-in-safari-18-beta/
+- Build immersive web experiences with WebXR  
+  https://developer.apple.com/videos/play/wwdc2024/10066
+- Optimize for the spatial web  
+  https://developer.apple.com/videos/play/wwdc2024/10065
 - Introducing Immersive Web Emulation Runtime (IWER) for Faster WebXR Iteration  
   https://developers.meta.com/horizon/blog/immersive-web-emulation-runtime-iwer-webxr-meta-quest-developer/
 - Immersive Web Emulation Runtime🔓 Unlock WebXR Emulation Everywhere  

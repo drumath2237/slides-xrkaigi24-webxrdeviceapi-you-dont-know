@@ -102,10 +102,27 @@ WebARの実現のためにDevice APIを使い、iOSサポートをしないか
 level: 2
 ---
 
-# Babylon.jsと8thwallの比較
+## Babylon.jsと8thwallの比較
+
+![alt text](/bab8th.png)
 
 ---
 level: 2
 ---
 
 # HMDとDevice API
+<br/>
+
+HMDの場合はiOSほど制限のある環境は今のところない
+
+主要なHMD環境は少なくともWebXRモードへ移行できるようなブラウザを搭載  
+(e.g. Quest, VisionPro, PICO, HoloLens...)
+
+WebXR Device APIを気兼ねなく使える  
+→スマホでつくっていたWebXRアプリをそのまま動かせるかも
+
+8thwallのMetaversal Deploymentのような  
+モバイルでは非DeviceAPIだったツールも  
+独自エンジンとDeviceAPIを切り替えられるようにしている（すごい）
+
+非モバイルデバイスの状況はDeviceAPIが目指す理想状態に近い
