@@ -40,6 +40,7 @@ hideInToc: true
 
 # にー兄さん
 
+- Babylon.jsとWebXR Device API<br />の宣教師
 - ソフトウェアエンジニア
 - 株式会社ホロラボ
 - Microsoft MVP (Web)
@@ -89,3 +90,53 @@ level: 2
 src: "./pages/about-webxr.md"
 ---
 
+---
+layout: section
+---
+
+# 個人的面白いWebXR Device APIトピックス
+
+---
+level: 2
+---
+
+# ここからはDevice APIのトピックのご紹介
+
+- HMDのブラウザたち
+  - Apple VisionPro
+  - Meta Quest3
+  - Wolvic
+- Meta IWERについて
+<!-- - Looking GlassのWebXR -->
+
+---
+src: "./pages/hmd.md"
+---
+
+---
+src: "./pages/iwer.md"
+---
+
+---
+layout: section
+---
+
+# おわりに
+
+---
+level: 2
+---
+
+# まとめ
+
+---
+level: 2
+---
+
+# WebXR Device APIへの期待
+
+---
+level: 2
+---
+
+# 参考文献
