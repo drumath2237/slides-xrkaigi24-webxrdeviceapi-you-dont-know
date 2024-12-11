@@ -40,7 +40,7 @@ hideInToc: true
 
 # にー兄さん
 
-- Babylon.jsとWebXR Device API<br />の宣教師
+- Babylon.jsとWebXR Device APIの宣教師
 - ソフトウェアエンジニア
 - 株式会社ホロラボ
 - Microsoft MVP (Web)

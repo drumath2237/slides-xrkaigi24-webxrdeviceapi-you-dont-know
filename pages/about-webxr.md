@@ -71,6 +71,9 @@ https://immersiveweb.dev/
 ブラウザの標準機能として実装されているため、
 サードパーティを必要としない
 
+Three.js・Babylon.js・PlayCanvasなどを使う場合は  
+内部的にWebXR Device APIを使う構成になっている
+
 ::right::
 
 <img src="https://immersiveweb.dev/webxr-logo.svg" class="ml-5 mt-30"/>
