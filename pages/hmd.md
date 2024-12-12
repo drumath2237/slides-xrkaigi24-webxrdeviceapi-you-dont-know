@@ -56,12 +56,12 @@ level: 2
 # Meta QuestとDevice APIの概要
 <br/>
 
-Meta Quest3をはじめとするデバイスではQuestブラウザを搭載
+Meta Quest3をはじめとするデバイスではMeta Questブラウザを搭載
 
-もちろんQuestブラウザはWebXR Device API対応
+もちろんMeta QuestブラウザはWebXR Device API対応
 
-WebXR Incubation Flagの有効化は必要なものの、  
-Questブラウザは多くのWebXR Moduleを実装している
+WebXR Incubation Flagの有効化は必要なものもある  
+Meta Questブラウザは多くのWebXR Moduleを実装している
 
 モバイルでは動かないような機能もいくつかあり、触っていて楽しい
 

@@ -118,11 +118,10 @@ level: 2
 
 HMDの場合はiOSほど制限のある環境は今のところない
 
-主要なHMD環境は少なくともWebXRモードへ移行できるようなブラウザを搭載  
+主要なHMD環境は少なくともWebXRを起動できるようなブラウザを搭載  
 (e.g. Quest, VisionPro, PICO, HoloLens...)
 
 WebXR Device APIを気兼ねなく使える  
-→スマホでつくっていたWebXRアプリをそのまま動かせるかも
 
 8thwallのMetaversal Deploymentのような  
 モバイルでは非DeviceAPIだったツールも  
