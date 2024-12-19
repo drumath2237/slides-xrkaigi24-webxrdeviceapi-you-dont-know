@@ -189,5 +189,4 @@ level: 2
 WolvicはGecko版とChromium版が走っており、  
 とうとうChromium版でAR Moduleが利用可能に！
 
-<img src="/chromium.png" class="scale-80"/>
-
+<img src="/chromium_.png" class="scale-80"/>

@@ -107,7 +107,7 @@ level: 2
 
 ## Babylon.jsと8thwallの比較
 
-![alt text](/bab8th.png)
+<img src="/bab8th.png" />
 
 ---
 level: 2
